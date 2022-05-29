@@ -17,14 +17,36 @@ Hasil:
 
 ![image](https://user-images.githubusercontent.com/72655301/170871621-789d1586-1cbf-4121-9499-6867b82bf003.png)
 
-c. 
+c. Untuk menentukan signifikan atau tidaknya, kita perlu mengetahui interval kritikalnya yang dapat dilihat pada gambar dibawah.
+
+![image](https://user-images.githubusercontent.com/72655301/170875706-a32642a9-d4ae-4734-ae5f-99070306274c.png)
+
+Hasil:
+
+![image](https://user-images.githubusercontent.com/72655301/170875714-a2010427-8fa0-4930-a318-57d85a98c083.png)
+
+Dapat dilihat bahwa untuk nilai t berada di dalam interval nilai kritikal maka dapat disimpulkan bahwa tidak ada signifikansi dari kadar saturasi oksigen untuk sebelum dan setelah melakukan aktivitas A (Sesuai dengan klaim/hipotesis nol)
 
 ## Nomor 2
 a. Dengan menggunakan fungsi zsum.test() dari library BSDA kita dapat melihat bagaimana klaim ini dapat kita setujui atau tidak.
 
+![image](https://user-images.githubusercontent.com/72655301/170874921-1650f2ec-30b8-4ef7-b4f5-346b8cee7389.png)
 
-b.
-c.
+Hasil:
+
+![image](https://user-images.githubusercontent.com/72655301/170874926-63050419-424a-47c4-bb90-9d2247c3ab7f.png)
+
+b. Untuk output yang telah kita dapatkan dengan nilai z = 8.9744 dan p-value < 2.2e-16 maka dapat disimpulkan bahwa rata-rata yang sebenarnya lebih besar dari 20000 (klaim salah) dengan nilai rataan 22858.51 dengan tingkat kepercayaan 95%.
+
+c. Berdasarkan p-value yang didapatkan, dapat disimpulkan bahwa dengan nilai p-value rendah, maka klaim atau hipotesis nol dapat ditolak dilihat dari p-value yang tidak sesuai dengan output sebelumnya.
+
+## Nomor 3
+a. H0: 
+   H1: 
+   
+b. 
+
+## Nomor 4
 
 ## Nomor 5
 a. Dengan menggunakan fungsi ggboxplot dari library ggpubr maka kita dapat membuat visualisasi sederhana dari data tersebut.
