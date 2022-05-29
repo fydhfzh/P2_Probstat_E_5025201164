@@ -69,6 +69,7 @@ Hasil:
 ![image](https://user-images.githubusercontent.com/72655301/170876531-cb261134-7d2a-4a47-b185-5f5891da4a67.png)
 
 e. Sesuai dengan poin d untuk nilai t berada didalam nilai kritikal, maka hipotesis satu dapat diambil.
+
 f. Karena hipotesis satu diambil, maka dapat disimpulkan nilai rataan saham Bali tidak sama dengan saham Bandung.
 
 ## Nomor 4
