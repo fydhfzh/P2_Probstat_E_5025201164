@@ -30,9 +30,15 @@ Dapat dilihat untuk nilai t berada pada interval nilai kritikal sehingga dapat d
 ## Nomor 2
 a. Dengan menggunakan fungsi zsum.test() dari library BSDA kita dapat melihat bagaimana klaim ini dapat kita setujui atau tidak.
 
+![image](https://user-images.githubusercontent.com/72655301/170874921-1650f2ec-30b8-4ef7-b4f5-346b8cee7389.png)
 
-b.
-c.
+Hasil:
+
+![image](https://user-images.githubusercontent.com/72655301/170874926-63050419-424a-47c4-bb90-9d2247c3ab7f.png)
+
+b. Untuk output yang telah kita dapatkan dengan nilai z = 8.9744 dan p-value < 2.2e-16 maka dapat disimpulkan bahwa rata-rata yang sebenarnya lebih besar dari 20000 (klaim salah) dengan nilai rataan 22858.51 dengan tingkat kepercayaan 95%.
+
+c. Berdasarkan p-value yang didapatkan, dapat disimpulkan bahwa dengan nilai p-value rendah, maka klaim atau hipotesis nol dapat ditolak dilihat dari p-value yang tidak sesuai dengan output sebelumnya.
 
 ## Nomor 5
 a. Dengan menggunakan fungsi ggboxplot dari library ggpubr maka kita dapat membuat visualisasi sederhana dari data tersebut.
