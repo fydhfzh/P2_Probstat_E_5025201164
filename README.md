@@ -37,13 +37,32 @@ Hasil:
 
 b. Uji ANOVA dua arah dapat dilakukan dengan menggunakan fungsi aov().
 
-![image](https://user-images.githubusercontent.com/72655301/170872848-30755cd4-6cf4-4054-8998-e9f4df80b858.png)
+![image](https://user-images.githubusercontent.com/72655301/170874116-41d92d78-bd49-4cc5-97a5-2f37a0dacbd2.png)
 
 Hasil:
 
-![image](https://user-images.githubusercontent.com/72655301/170872861-fd51850e-3dee-40ad-b7df-e1df3b898638.png)
+![image](https://user-images.githubusercontent.com/72655301/170874127-01a5d8be-9ef7-4da6-ae7b-818fb94a8287.png)
 
-c. 
-d. 
-e.
+c. Untuk mencari rata-rata dan standar deviasi dari tiap kombinasi kaca dan temperatur dapat dilakukan dengan menggunakan beberapa fungsi yaitu group_by(), summarise(), dan arrange().
 
+![image](https://user-images.githubusercontent.com/72655301/170873907-b4b41430-502f-4fd3-96b9-5cc334d6b36d.png)
+
+Hasil: 
+
+![image](https://user-images.githubusercontent.com/72655301/170873921-0789f7db-e3fc-47b0-b6f5-19c51f2957c0.png)
+
+d. Untuk melakukan uji Tukey, kita dapat menggunakan fungsi TukeyHSD().
+
+![image](https://user-images.githubusercontent.com/72655301/170874103-8f980054-89a9-429b-8dd6-97f32ea30961.png)
+
+Hasil:
+
+![image](https://user-images.githubusercontent.com/72655301/170874083-353d110b-092f-4548-827d-222d9729a256.png)
+
+e. Untuk membuat Compact Letter Display (CLD) antara Tukey dan ANOVA, kita dapat menggunakan beberapa fungsi dari library yang telah kita gunakan sebelumnya.
+
+![image](https://user-images.githubusercontent.com/72655301/170874648-b4018760-6cd4-4801-91da-8d882cbc268c.png)
+
+Hasil:
+
+![image](https://user-images.githubusercontent.com/72655301/170874665-9823c564-6eca-4088-9149-7dcc3fff4c72.png)
